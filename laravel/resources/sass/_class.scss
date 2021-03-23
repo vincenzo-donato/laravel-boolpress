@@ -1,0 +1,53 @@
+// STYLE CSS MAIN 
+main{
+    padding: 0px;
+}
+// STYLE CSS PER POST ADMIN POST INDEX 
+.post{
+    display: flex;
+    flex-wrap: wrap;
+    .card-body{
+        width: 300px;
+        margin: 5px;
+        &:hover{
+            box-shadow: 10px 10px 10px 10px black;
+        }
+    }
+}
+
+// STYLE CSS GENERALE 
+.box{
+    padding: 20px;
+}
+
+.btn-margin{
+    margin: 5px;
+}
+
+// STYLE CSS DASHBOARD LAYOUTS POSTS 
+.container_dashboard{
+    display: flex;
+}
+
+.box_dashboard{
+    border-right: 2px solid blue ;
+    height: 100%;
+    margin-right: 50px;
+    padding-right: 20px;
+    ul{
+        list-style: none;
+        li{
+            margin-bottom: 5px;
+            a{
+                i{
+                    font-size: 35px;
+                }
+            }
+        }
+    }
+}
+
+// DIMENSIONE IMG 
+.img-size{
+    width: 250px;
+}
